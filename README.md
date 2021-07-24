@@ -13,3 +13,5 @@ The Following Validations and Modifications are performed:
 The name of the room is displayed at the top-left corner. Just below that are the users in the room. The current user is notified when other users join the room.
 
 <img src="screenshots/chatPage.png" width="500px" height="500px"></img>
+
+Live Version Of the app at:- https://sigma-chat-app.herokuapp.com/
