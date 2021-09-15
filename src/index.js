@@ -22,7 +22,8 @@ const {
   getUsersInRoom,
 } = require('./helper/users');
 
-// server (emit) => client (receive) - message
+// server (send)(emit method) => client (receive)(on method) - message
+// client (send)(emit method) => server (receive)(on method) - message
 
 io.on('connection', (socket) => {
   // room communication
